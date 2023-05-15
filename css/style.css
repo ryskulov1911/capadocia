@@ -1,0 +1,408 @@
+@import url('https://fonts.cdnfonts.com/css/balqis');
+@import url('https://fonts.cdnfonts.com/css/roboto-condensed');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+
+._container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.carousel1_container {
+    width: 80%;
+    margin: 0;
+}
+
+.carousel2_container {
+    width: 80%;
+    margin: 0 0 0 20%;
+
+}
+
+html,
+body {
+    width: 1920px;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-size: 14px;
+    color: black;
+}
+
+/* ---------header--------------------------------- */
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url('../img/main_top_bacground.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat
+}
+
+nav {
+    padding: 72px 0 140px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+nav ul li:nth-child(2) {
+    margin: 0 52px;
+}
+
+.header_menu_right {
+    display: flex;
+}
+
+.header_menu_right p {
+    margin: 0 0 0 10px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.header_title_box { 
+    text-align: center;
+    position: relative;
+}
+
+.header_title {
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 200px;
+}
+
+.header_subtitle {
+    position: absolute;
+    top: 250px;
+    right: 0;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+/* ---------header--------------------------------- */
+/* ----main---------------------------------------- */
+.frame_1 {
+    margin: 200px 0 0 0;
+}
+
+.carousel1_title {
+    position: relative;
+   
+}
+
+.main_title {
+    font-family: 'Balqis', sans-serif;
+    font-weight: 400;
+    font-size: 96px;
+    color: #E2AB3F;
+
+}
+
+.subtitle {
+    position: absolute;
+    bottom:0;
+    left: 185px; 
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-size: 24px;
+}
+
+.sub2 {
+    left: 255px;
+}
+
+.carousel_box {
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    margin: 107px 0 0 0;
+}
+
+.carousel_box2 {
+    display: flex;
+    justify-content: space-between;
+    height: 1095px;
+}
+
+.carousel1 {
+    width: 960px;
+    height: 100%;
+}
+
+.carousel1_texts {
+    width: 545px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.carousel2_texts {
+    width: 280px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.sect2_marg{
+    margin: 0 0 108px 0;
+}
+.c1_text {
+    padding: 0 0 50px 0;
+}
+
+._bold {
+    font-weight: 600;
+}
+
+.c2_subtext {
+    padding: 0 0 40px 0;
+}
+
+.to_book_btn {
+    width: 280px;
+    height: 50px;
+    border: 1px solid #E2AB3F;
+    background: transparent;
+    font-size: 24px;
+}
+
+/* ------carousels------------------------ */
+/* ------hotel---------------------------- */
+    .hotel_block {
+        margin: 200px 0 0 0;
+    }
+
+    .sub3 {
+        left: 135px;
+    }
+
+    .hotel_section {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 100px 0 0 0;
+    }
+
+    .left_block {
+        width: 500px;
+        height: 700px;
+    }
+
+    .left_block img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .right_block {
+        width: 600px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .right_block_text {
+        width: 100%;
+        height: 270px;
+    }
+
+    .right_block_text p {
+        margin: 0;
+    }
+
+    .right_block_text p:nth-child(2) {
+        margin: 20px 0;
+    }
+
+    .right_block_grid {
+        width: 100%;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+    }
+
+    .grid_img_box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+/* ---------price-------------------- */
+.price_top {
+    margin: 200px 0 200px 0;
+  
+}
+
+.price_top_text {
+    width: 964px;
+    height: 328px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0 0 0;  
+    position: relative;
+}
+
+.price_top_text div:first-child {
+    width: 530px;
+}
+.baloon_1{
+    position: absolute;
+    top: 10%;
+    right:-100px;
+}
+.baloon_2{
+    position: absolute;
+    bottom: 0;
+    right: -180px;
+}
+.baloon_big{
+    position: absolute;
+    top:-137px;
+    right: -360px;
+}
+.top_text_title {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 0 50px 0;
+}
+
+.price_top_text_box p:not(:last-child, :first-child) {
+    margin: 0 0 20px 0;
+}
+
+.price_bottom {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 0 200px 0;
+}
+
+.price_bottom_left {
+    width: 383px;
+    margin: 0 0 0 100px;
+}
+
+.price_data {
+    margin: 78px 0 100px 0px;
+}
+.m_t_data{
+    left: 170px;
+}
+.zayavka_title {
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 0 50px 0;
+}
+
+.price_bottom_zayavka input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #E2AB3F;
+    background: transparent;
+    margin: 0 0 20px 0;
+}
+
+/* ----------footer-------------*/
+.footer {
+    width: 100%;
+    height: 1180px;
+    background: url('../img/footer_back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer_content {
+    display: flex;
+    padding: 120px 0 0px 0;
+    justify-content: space-between;
+}
+
+.air_baloon {
+    width: 356px;
+    height: 527px;
+    background: url('../img/air_baloon.png');
+    margin: 0 0 0 103px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_title {
+    font-family: 'Balqis';
+    font-weight: 400;
+    font-size: 86px;
+    margin: 191px 0 0 0;
+}
+
+.air_title {
+    margin: 47px 0 50px 56px;
+    font-size: 86px;
+}
+
+.air_title_box {
+    display: flex;
+}
+
+.air_num {
+    margin: 0 10px 20px 83px;
+}
+
+.air_mail {
+    margin: 0 10px 33px 56px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons img:nth-child(2) {
+    margin: 0 15px;
+}
+
+/* ----------/footer-------------*/
